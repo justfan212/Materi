@@ -1,0 +1,122 @@
+body {
+	 background-image: url(image/aes.jpg);
+	 background-repeat: no-repeat;
+	 background-position:  top center;
+	 background-size: 100%; 
+
+}
+
+
+h1 {
+	color: rgb(194, 255, 1);
+	background-color: grey;
+	font-family: Blue;
+	font-style: italic;
+	text-align: center;
+}
+
+
+p {
+	color: skyblue;
+	font-family: Bohemian;
+	font-size: 20px;	
+	letter-spacing: 2px;
+}
+
+.hello {
+	color: red;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "Happy";
+}
+
+.hello:hover {
+	color: 	skyblue;
+}
+
+ul.link li a:hover {
+	color: black;
+
+}
+
+ul.link li a {
+	color: #FF00FE;
+	font-size: 20px;
+	font-family: "Bohemian";
+	background-color: #98FF00;
+	padding: 5px;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+
+
+
+/*  External Font */
+@font-face {
+	font-family: "Squada One";
+	src : url('Font/SquadaOne-Regular.ttf') format('truetype'); 
+
+	font-family: "CroissantOne";
+	src : url('Font/CroissantOne-Regular.ttf') format('truetype') ;
+
+	font-family: "Reserved";
+	src : url('Font/All rights reserved.ttf') format('truetype');
+
+	font-family: "Bohemian";
+	src : url('Font/Bohemian Typewriter.ttf') format('truetype');
+
+	font-family: "Blacklist";
+	src : url('Font/Blacklisted.ttf') format('truetype') ;
+
+	font-family: "Vogue";
+	src : url('Font/Vogue.ttf') format('truetype') ;
+
+	font-family: "Happy";
+	src : url('Font/Happy Ending.otf') format('truetype') ;
+
+	font-family: "Blue";
+	src :url('Font/Blueberry.ttf') format('truetype');
+
+}
+
+
+
+
+			/* CSS DASAR! */
+	/*
+		Pseudo Class
+		 link    : Style default pada sebuah link (a yang memiliki href)
+		 hover   : Style kursor mouse pada di atas sebuah link / elemen
+		 active  : style ketika sebuah link di klik (dalam keadaan aktif)
+		 visited : style ketika sebuah link sudah pernah di kunjungi sebelumnya (Menggunakan browser yang sama)
+	*/
+
+
+	/*	Background (Basic)
+		 background-color        : Mengatur warna pada background
+		 background-image        : Mengatur gambar yang akan di gunakan pada background
+		 background-posisition   : Mengatur posisi gambar pada background
+		 background-repeat       : Mengatur jenis pengulangan gambar pada background
+		 background-size         : 
+
+	*/
+
+
+	/* 	Font Styling (Basic)
+	 	 font-family    : Untuk mengubah Font
+		 font-weight    : Untuk mengubah ketebalan Font
+		 font-size: 	: Untuk mengubah ukuran Font
+		 font-variant   : 
+		 font-style     : Untuk mengubah bentuk Font	
+	*/
+
+
+	/*  Text Styling (Basic)
+		 color 			  : Memberi warna pada tulisan
+		 text-align       :	Memberi format paragraph / teks
+		 text-indent      :	Membuat indentasi pada paragraph / teks
+		 text-decoration  :	Mengatur dekorasi pada teks
+		 text-transform   : Mengubah jenis huruf (Kapital, Kecil)
+		 letter-spacing   : Mengatur spasi antar huruf
+		 word-spacing     : Mengatur spasi antar kata
+	*/
